@@ -4,7 +4,7 @@ Overview
 This project demonstrates how to create an interactive dashboard in Looker Studio (formerly Google Data Studio) using a sample dataset. The dashboard provides visual insights into sales data, including revenue trends, regional performance, and product-level analysis.
 
 Features
-Data Source Integration**: Connected a sample dataset with fields like Sales Amount, Units Sold, Date, and Region.
+Data Source Integration: Connected a sample dataset with fields like Sales Amount, Units Sold, Date, and Region.
 Computed Fields:
 Total Revenue: Calculates total sales revenue.
 Average Sales per Unit: Shows the average revenue per unit sold.
@@ -12,9 +12,10 @@ Year and Month: Extracts temporal details from the date field for time-based ana
 
 Visualizations:
 Scorecards: Highlights key metrics (e.g., Total Revenue, Average Sales per Unit).
-Bar Chart: Displays sales by product category.
+stacked Bar Chart: Displays sales by product category.
 Time Series Chart: Shows sales trends over time.
-Line chart :- show trends of data
+cloumn chart :- shows revenue by product
+table chart :- shows regions and record count
 
 Customizations:
 Interactive filters for date range and categorical data.
